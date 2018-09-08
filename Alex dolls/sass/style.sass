@@ -1,14 +1,126 @@
-/*cats_types*/
+a 
+  text-decoration: none
+  &:hover 
+    text-decoration:  none
 .cats_types
   .col-md-3
     position: relative
-    img 
-      position: absolute
-  &-dark 
     height: 100%
     width: 100%
     position: absolute
     top: 0
-    &:hover 
+    img 
+      position: absolute
+    &:hover
       background-color: #000000
       opacity: 0.5
+/*kittens.html */
+.kittens 
+  background-color: #4380d3
+  .container 
+    padding: 30px
+    border-bottom: 2px solid white
+    h2 
+      text-align: center
+      color: #fff
+      font-weight: 200
+  &-info
+    padding-top: 30px
+    padding-bottom: 30px
+    color: white
+    border-bottom: 2px solid white
+    p 
+      font-size: 18px
+      line-height: 22px
+      font-weight: 300
+      letter-spacing: 0px
+      text-align: center
+  &-items 
+    padding-top: 50px
+    padding-bottom: 30px
+    .col-md-4
+      margin-bottom: 50px
+    &-kitten 
+      padding-top: 20px
+      &-photo 
+        position: relative
+        transition: 5s
+        &:hover 
+          .kittens-items-kitten-photo-desc 
+            position: absolute
+            top: 200px
+            h2 
+              color: #fff 
+              text-align: center
+              font-style: 18px
+              font-weight: 200
+              top: 200px
+              display: inline-block
+              width: 100%
+            .container
+              width: 80%
+              .line 
+                height: 1px
+                background-color: #ffffff
+                transform: scale(1)
+        .dark 
+          height: 100%
+          width: 100% 
+          position: absolute
+          top: 0
+          &:hover
+            background-color: #000000
+            opacity: 0.5
+        &-desc 
+          width: 100%
+          position: absolute
+          top: 200px
+          h2 
+            color: #fff 
+            text-align: center
+            font-weight: 200
+            top: 270px !important
+            display: inline-block
+            width: 100%
+            transition: all 0.3s
+          .container
+            width: 80%
+            .line 
+              height: 1px
+              background-color: #ffffff
+              transform: scale(0)
+              transition: all 0.3s
+      &-info 
+        padding: 30px
+        text-align: center
+        a 
+          color: #fff
+          font-size: 25px
+          font-weight: 200
+          text-decoration: underline
+          margin-top: 40px !important
+          border: none !important
+          &:hover 
+            color: #fff 
+            text-decoration: underline
+        &-stock 
+          color: red !important
+          margin-bottom: 20px
+          margin-top: 20px
+        p 
+          color: white
+          margin-bottom: 0px !important
+  a 
+    text-align: center
+    color: #fff
+    display: inline-block
+    width: 100%
+    font-size: 25px
+    font-weight: 300
+    border: 2px solid white
+    transition: all 0.5s
+    &:hover 
+      text-decoration: none
+      background-color: white
+      color: #4380d3
+

@@ -1,15 +1,127 @@
-/*cats_types */
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
 .cats_types .col-md-3 {
-  position: relative; }
-  .cats_types .col-md-3 img {
-    position: absolute; }
-.cats_types-dark {
+  position: relative;
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0; }
-  .cats_types-dark:hover {
+  .cats_types .col-md-3 img {
+    position: absolute; }
+  .cats_types .col-md-3:hover {
     background-color: #000000;
     opacity: 0.5; }
+
+/*kittens.html */
+.kittens {
+  background-color: #4380d3; }
+  .kittens .container {
+    padding: 30px;
+    border-bottom: 2px solid white; }
+    .kittens .container h2 {
+      text-align: center;
+      color: #fff;
+      font-weight: 200; }
+  .kittens-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    border-bottom: 2px solid white; }
+    .kittens-info p {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-align: center; }
+  .kittens-items {
+    padding-top: 50px;
+    padding-bottom: 30px; }
+    .kittens-items .col-md-4 {
+      margin-bottom: 50px; }
+    .kittens-items-kitten {
+      padding-top: 20px; }
+      .kittens-items-kitten-photo {
+        position: relative;
+        transition: 5s; }
+        .kittens-items-kitten-photo:hover .kittens-items-kitten-photo-desc {
+          position: absolute;
+          top: 200px; }
+          .kittens-items-kitten-photo:hover .kittens-items-kitten-photo-desc h2 {
+            color: #fff;
+            text-align: center;
+            font-style: 18px;
+            font-weight: 200;
+            top: 200px;
+            display: inline-block;
+            width: 100%; }
+          .kittens-items-kitten-photo:hover .kittens-items-kitten-photo-desc .container {
+            width: 80%; }
+            .kittens-items-kitten-photo:hover .kittens-items-kitten-photo-desc .container .line {
+              height: 1px;
+              background-color: #ffffff;
+              transform: scale(1); }
+        .kittens-items-kitten-photo .dark {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0; }
+          .kittens-items-kitten-photo .dark:hover {
+            background-color: #000000;
+            opacity: 0.5; }
+        .kittens-items-kitten-photo-desc {
+          width: 100%;
+          position: absolute;
+          top: 200px; }
+          .kittens-items-kitten-photo-desc h2 {
+            color: #fff;
+            text-align: center;
+            font-weight: 200;
+            top: 270px !important;
+            display: inline-block;
+            width: 100%;
+            transition: all 0.3s; }
+          .kittens-items-kitten-photo-desc .container {
+            width: 80%; }
+            .kittens-items-kitten-photo-desc .container .line {
+              height: 1px;
+              background-color: #ffffff;
+              transform: scale(0);
+              transition: all 0.3s; }
+      .kittens-items-kitten-info {
+        padding: 30px;
+        text-align: center; }
+        .kittens-items-kitten-info a {
+          color: #fff;
+          font-size: 25px;
+          font-weight: 200;
+          text-decoration: underline;
+          margin-top: 40px !important;
+          border: none !important; }
+          .kittens-items-kitten-info a:hover {
+            color: #fff;
+            text-decoration: underline; }
+        .kittens-items-kitten-info-stock {
+          color: red !important;
+          margin-bottom: 20px;
+          margin-top: 20px; }
+        .kittens-items-kitten-info p {
+          color: white;
+          margin-bottom: 0px !important; }
+  .kittens a {
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 300;
+    border: 2px solid white;
+    transition: all 0.5s; }
+    .kittens a:hover {
+      text-decoration: none;
+      background-color: white;
+      color: #4380d3; }
 
 /*# sourceMappingURL=style.css.map */
