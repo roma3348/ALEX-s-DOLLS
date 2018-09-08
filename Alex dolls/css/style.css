@@ -1,0 +1,15 @@
+/*cats_types */
+.cats_types .col-md-3 {
+  position: relative; }
+  .cats_types .col-md-3 img {
+    position: absolute; }
+.cats_types-dark {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0; }
+  .cats_types-dark:hover {
+    background-color: #000000;
+    opacity: 0.5; }
+
+/*# sourceMappingURL=style.css.map */
