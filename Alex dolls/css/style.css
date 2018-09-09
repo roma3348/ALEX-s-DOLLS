@@ -82,7 +82,7 @@ a {
             top: 270px !important;
             display: inline-block;
             width: 100%;
-            transition: all 0.3s; }
+            transition: all 0.4s; }
           .kittens-items-kitten-photo-desc .container {
             width: 80%; }
             .kittens-items-kitten-photo-desc .container .line {
@@ -123,5 +123,13 @@ a {
       text-decoration: none;
       background-color: white;
       color: #4380d3; }
+
+/*cats.html */
+.cats .col-md-6 {
+  margin-bottom: 40px; }
+.cats-desc {
+  top: 350px; }
+  .cats-desc .container {
+    border-bottom: none; }
 
 /*# sourceMappingURL=style.css.map */
