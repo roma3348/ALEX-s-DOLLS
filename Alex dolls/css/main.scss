@@ -85,3 +85,88 @@
 	img{
 		width: 100%;}
 }
+.cat_breed{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: url(../img/fon.jpg) no-repeat 100% bottom/cover;
+	img{
+		width: 50%;
+		}
+	h3{
+		color: #fff;
+		font-size: 18px;
+    	line-height: 20px;
+    	font-weight: 300;
+		letter-spacing: 1px;
+		width: 50%;
+		padding: 15px;
+		}
+	}
+	.social{
+		background: url(../img/fon2.jpg) no-repeat 100% top/cover;
+	}
+.contacts{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	h1{
+		color: #fff;
+		font-weight: 300;
+	}
+	h2{
+		color: #fff;
+		font-weight: 200;
+	}
+	.question{
+		line-height: 50px !important;
+	}
+	.contact_owner{
+		width: 40%;
+		padding: 30px;
+		border-right: 2px solid #fff;
+		padding-left: 90px;
+	}
+	.contact-form{
+		width: 60%;
+		padding: 30px;
+	}
+	.contact-line{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 20px;
+		img{
+			height: 40px;
+		}
+		h4{
+			color: #fff;
+			margin-left: 15px;
+			font-size: 30px;
+			font-weight: 300;
+
+		}
+	}
+}
+.social_button{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+.social-buttons{
+	h1{
+		text-align: center;
+		color: #fff;
+		line-height: 70px;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		margin-bottom: 40px;
+	}
+}
