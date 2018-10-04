@@ -17,7 +17,8 @@ a {
 
 /*kittens.html */
 .kittens {
-  background-color: #4380d3; }
+  background-color: #4380d3;
+  border-bottom: 2px solid #fff; }
   .kittens .container {
     padding: 30px;
     border-bottom: 2px solid white; }
@@ -48,13 +49,13 @@ a {
         transition: 5s; }
         .kittens-items-kitten-photo:hover .kittens-items-kitten-photo-desc {
           position: absolute;
-          top: 200px; }
+          top: 65%; }
           .kittens-items-kitten-photo:hover .kittens-items-kitten-photo-desc h2 {
             color: #fff;
             text-align: center;
             font-style: 18px;
             font-weight: 200;
-            top: 200px;
+            top: 65%;
             display: inline-block;
             width: 100%; }
           .kittens-items-kitten-photo:hover .kittens-items-kitten-photo-desc .container {
@@ -74,17 +75,18 @@ a {
         .kittens-items-kitten-photo-desc {
           width: 100%;
           position: absolute;
-          top: 200px; }
+          top: 65%; }
           .kittens-items-kitten-photo-desc h2 {
             color: #fff;
             text-align: center;
             font-weight: 200;
-            top: 270px !important;
+            top: 60% !important;
             display: inline-block;
             width: 100%;
             transition: all 0.4s; }
           .kittens-items-kitten-photo-desc .container {
-            width: 80%; }
+            width: 80%;
+            border-bottom: none !important ; }
             .kittens-items-kitten-photo-desc .container .line {
               height: 1px;
               background-color: #ffffff;
